@@ -69,6 +69,7 @@ jenres_id integer references Jenres(id),
 musicians_id integer references Musicians(id),
 constraint pk primary key (jenres_id, musicians_id)
 );
+
 create table if not exists Musicians_albums(
 musicians_id integer references Musicians(id),
 albums_id integer references Albums(id),

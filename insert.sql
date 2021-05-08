@@ -141,3 +141,10 @@ INSERT INTO collections_tracks(collections_id, tracks_id)
 VALUES(7, 3);
 INSERT INTO collections_tracks(collections_id, tracks_id)
 VALUES(8, 10);
+
+INSERT INTO musicians_albums(musicians_id, albums_id)
+VALUES(8, 5);
+INSERT INTO albums(name, year)
+VALUES('Positions', 2020);
+INSERT INTO musicians_albums(musicians_id, albums_id)
+VALUES(7, 9);
